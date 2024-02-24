@@ -1,0 +1,91 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(241, 240, 240, 0.5)
+}
+h1{
+    text-align: center;
+    font-size: 4rem;
+    margin: 0px;
+    padding: 4px;
+    background-color: rgb(241, 170, 38);
+}
+#details{
+    float: right;
+    background-color: rgb(241, 170, 38);
+    margin: 8px;
+    border-radius: 18px;
+}
+#details h4{
+    text-align: center;
+    font-size: 24px;
+}
+#details ul{
+    list-style: none;
+    padding: 6px;
+    width: 20vw;
+}
+#details ul li{
+    padding: 10px;
+    font-size: 20px;
+}
+.summary img{
+    width: 34vw;
+    margin: 12px;
+    border-radius: 18px;
+}
+h3{
+    font-size: 2rem;
+    margin: 8px;
+    text-align: center;
+    margin: 6px;
+}
+.summary{
+    font-size: 19px;
+    padding: 8px;
+}
+.summary p{
+    padding: 12px;
+}
+h4{
+    font-size: 2rem;
+    text-align: center;
+    margin: 6px;
+}
+#ingredients ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 300px));
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    justify-content: space-around;
+}
+#ingredients ul li{
+    background-color: rgb(241, 170, 38);
+    border-radius: 20px;
+    text-align: center;
+    font-size: 19px;
+}
+p{
+    padding: 12px;
+}
+#ingredients img{
+    width: 100%;
+    height: 160px;
+}
+.Instructions p{
+    font-size: 19px;
+    padding: 12px;
+}
+
+/* loader  */
+#loader{
+    background:black url('../images/7gQj.gif') no-repeat center center;
+    position: fixed;
+    background-size: 10%;
+    height: 100vh;
+    width: 100%;
+}
